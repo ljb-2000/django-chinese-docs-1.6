@@ -2,28 +2,27 @@
 .. _index:
 
 ====================
-Django documentation
+Django 中文文档
 ====================
 
-.. rubric:: Everything you need to know about Django.
+.. rubric:: 这里有你需要知道的有关 Django 的一切。
 
 Getting help
 ============
 
-Having trouble? We'd like to help!
+有问题吗？ 我们希望以下对大家有所帮助！
 
-* Try the :doc:`FAQ <faq/index>` -- it's got answers to many common questions.
+* 试试 :doc:`常见问题 <faq/index>` -- 它对许多常见的问题作了解答。
 
-* Looking for specific information? Try the :ref:`genindex`, :ref:`modindex` or
-  the :doc:`detailed table of contents <contents>`.
+* 寻找特定的信息？ 试试 :ref:`文档索引<genindex>`, :ref:`模块索引<modindex>` or
+  the :doc:`文档目录 <contents>`.
 
-* Search for information in the `archives of the django-users mailing list`_, or
-  `post a question`_.
+* 搜索 `django-users邮件列表 <archives of the django-users mailing list>`_, or
+  `提交一个问题 <post a question>`_.
 
-* Ask a question in the `#django IRC channel`_, or search the `IRC logs`_ to see
-  if it's been asked before.
+* 在 `#django IRC channel`_, 上提问, 或者搜索 `IRC logs`_ 看下是否已经有人问过类似的问题。
 
-* Report bugs with Django in our `ticket tracker`_.
+* 在我们的 `ticket tracker`_ 上报告 Django 的 bug 。
 
 .. _archives of the django-users mailing list: http://groups.google.com/group/django-users/
 .. _post a question: http://groups.google.com/group/django-users/
