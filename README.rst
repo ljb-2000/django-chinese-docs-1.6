@@ -23,7 +23,7 @@ Django 1.6 官方文档的中文版
 .. _Django: https://www.djangoproject.com/
 .. _官方文档: https://docs.djangoproject.com/en/1.6/
 .. _readthedocs.org: https://readthedocs.org/
-.. _浏览: https://djangov16.readthedocs.org/en/latest/
-.. _PDF: https://media.readthedocs.org/pdf/djangov16/latest/djangov16.pdf
-.. _Epub: https://media.readthedocs.org/epub/djangov16/latest/djangov16.epub
-.. _HTML: https://media.readthedocs.org/htmlzip/djangov16/latest/djangov16.zip
+.. _浏览: https://chinesedjangodocs16.readthedocs.org/en/latest/
+.. _PDF: https://media.readthedocs.org/pdf/chinesedjangodocs16/latest/chinesedjangodocs16.pdf
+.. _Epub: https://media.readthedocs.org/epub/chinesedjangodocs16/latest/chinesedjangodocs16.epub
+.. _HTML: https://media.readthedocs.org/htmlzip/chinesedjangodocs16/latest/chinesedjangodocs16.zip
