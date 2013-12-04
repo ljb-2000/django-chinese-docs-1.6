@@ -1,10 +1,9 @@
 ==================
-Django at a glance
+初探 Django
 ==================
 
-Because Django was developed in a fast-paced newsroom environment, it was
-designed to make common Web-development tasks fast and easy. Here's an informal
-overview of how to write a database-driven Web app with Django.
+由于Django是在一个快节奏的新闻编辑室环境下开发出来的，因此它被设计成让普通的网站开发工作简单而快
+捷。以下简单介绍了如何用 Django 编写一个数据库驱动的Web应用程序。
 
 The goal of this document is to give you enough technical specifics to
 understand how Django works, but this isn't intended to be a tutorial or
