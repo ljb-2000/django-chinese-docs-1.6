@@ -26,13 +26,13 @@ Django 新手？或刚开始 web 开发？恭喜你，来对地方了：阅读�
 
     如果你是编程新手，那么你最好先看看 `编程新手 Python 资源列表`_
 
-    如果你有其他语言的编程经验并想快速学习 Python ，那么我们推荐 `Dive Into Python`_ (for `Python 2`_, for
-    `Python 3`_, also available in a
+    如果你有其他语言的编程经验并想快速学习 Python ，那么我们推荐 `Dive Into Python`_ ( `Python 2`_版本, 
+    `Python 3`_版本, 还有纸质的书籍
     `dead-tree version`_). 如果这本书不符合你的要求，这里还有许多其他 `关于 Python 的书`_.
 
     .. _python: http://python.org/
     .. _编程新手 Python 资源列表: http://wiki.python.org/moin/BeginnersGuide/NonProgrammers
     .. _Python 2: http://diveintopython.net/
     .. _Python 3: http://diveintopython3.net/
-    .. _dead-tree version: http://www.amazon.com/exec/obidos/ASIN/1590593561/ref=nosim/jacobian20
+    .. _dead-tree version: http://www.amazon.cn/s/ref=nb_sb_noss?__mk_zh_CN=亚马逊网站&url=search-alias%3Daps&field-keywords=dive+into+python
     .. _关于 Python 的书: http://wiki.python.org/moin/PythonBooks
