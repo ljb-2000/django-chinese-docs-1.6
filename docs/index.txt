@@ -75,11 +75,11 @@ Django 提供了一个抽象层(the "models"),对您的 web 应用中的数据�
   :doc:`自定义字段 <howto/custom-model-fields>` |
   :doc:`多数据库 <topics/db/multi-db>`
 
-* **Other:**
-  :doc:`Supported databases <ref/databases>` |
-  :doc:`Legacy databases <howto/legacy-databases>` |
-  :doc:`Providing initial data <howto/initial-data>` |
-  :doc:`Optimize database access <topics/db/optimization>`
+* **其他:**
+  :doc:`支持的数据库 <ref/databases>` |
+  :doc:`遗留型旧数据库 <howto/legacy-databases>` |
+  :doc:`为模型提供初始数据 <howto/initial-data>` |
+  :doc:`优化数据库访问 <topics/db/optimization>`
 
 The view layer
 ==============
