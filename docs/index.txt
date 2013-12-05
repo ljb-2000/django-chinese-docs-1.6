@@ -14,11 +14,9 @@ Getting help
 
 * 试试 :doc:`常见问题 <faq/index>` -- 它对许多常见的问题作了解答。
 
-* 寻找特定的信息？ 试试 :ref:`文档索引<genindex>`, :ref:`模块索引<modindex>` or
-  the :doc:`文档目录 <contents>`.
+* 寻找特定的信息？ 试试 :ref:`文档索引<genindex>`, :ref:`模块索引<modindex>` 或者 :doc:`文档目录 <contents>`.
 
-* 搜索 `django-users邮件列表 <archives of the django-users mailing list>`_, or
-  `提交一个问题 <post a question>`_.
+* 搜索 `django-users邮件列表 <archives of the django-users mailing list>`_, 或者 `提交一个问题 <post a question>`_.
 
 * 在 `#django IRC channel`_, 上提问, 或者搜索 `IRC logs`_ 看下是否已经有人问过类似的问题。
 
@@ -30,53 +28,52 @@ Getting help
 .. _IRC logs: http://django-irc-logs.com/
 .. _ticket tracker: https://code.djangoproject.com/
 
-First steps
+新手入门
 ===========
 
-Are you new to Django or to programming? This is the place to start!
+初次接触 Django 或编程吗? 从这里开始吧!
 
-* **From scratch:**
-  :doc:`Overview <intro/overview>` |
-  :doc:`Installation <intro/install>`
+* **从零开始:**
+  :doc:`初探 <intro/overview>` |
+  :doc:`安装 <intro/install>`
 
-* **Tutorial:**
-  :doc:`Part 1 <intro/tutorial01>` |
-  :doc:`Part 2 <intro/tutorial02>` |
-  :doc:`Part 3 <intro/tutorial03>` |
-  :doc:`Part 4 <intro/tutorial04>` |
-  :doc:`Part 5 <intro/tutorial05>` |
-  :doc:`Part 6 <intro/tutorial06>`
+* **新手教程:**
+  :doc:`第1部分 <intro/tutorial01>` |
+  :doc:`第2部分 <intro/tutorial02>` |
+  :doc:`第3部分 <intro/tutorial03>` |
+  :doc:`第4部分 <intro/tutorial04>` |
+  :doc:`第5部分 <intro/tutorial05>` |
+  :doc:`第6部分 <intro/tutorial06>`
 
-* **Advanced Tutorials:**
-  :doc:`How to write reusable apps <intro/reusable-apps>` |
-  :doc:`Writing your first patch for Django <intro/contributing>`
+* **进阶教程:**
+  :doc:`如何编写可重用的应用程序 <intro/reusable-apps>` |
+  :doc:`为Django编写属于你的首个补丁 <intro/contributing>`
 
-The model layer
+模型层(model)
 ===============
 
-Django provides an abstraction layer (the "models") for structuring and
-manipulating the data of your Web application. Learn more about it below:
+Django 提供了一个抽象层(the "models"),对您的 web 应用中的数据进行构建及操纵。通过以下内容来了解更多:
 
-* **Models:**
-  :doc:`Model syntax <topics/db/models>` |
-  :doc:`Field types <ref/models/fields>` |
-  :doc:`Meta options <ref/models/options>`
+* **模型(Models):**
+  :doc:`模型语法 <topics/db/models>` |
+  :doc:`字段类型 <ref/models/fields>` |
+  :doc:`Meta选项 <ref/models/options>`
 
-* **QuerySets:**
-  :doc:`Executing queries <topics/db/queries>` |
-  :doc:`QuerySet method reference <ref/models/querysets>`
+* **查询集(QuerySets):**
+  :doc:`执行查询 <topics/db/queries>` |
+  :doc:`QuerySet 方法参考<ref/models/querysets>`
 
-* **Model instances:**
-  :doc:`Instance methods <ref/models/instances>` |
-  :doc:`Accessing related objects <ref/models/relations>`
+* **模型实例(Model instances):**
+  :doc:`Instance 方法 <ref/models/instances>` |
+  :doc:`访问关联对象 <ref/models/relations>`
 
-* **Advanced:**
-  :doc:`Managers <topics/db/managers>` |
-  :doc:`Raw SQL <topics/db/sql>` |
-  :doc:`Transactions <topics/db/transactions>` |
-  :doc:`Aggregation <topics/db/aggregation>` |
-  :doc:`Custom fields <howto/custom-model-fields>` |
-  :doc:`Multiple databases <topics/db/multi-db>`
+* **进阶:**
+  :doc:`管理器(Managers) <topics/db/managers>` |
+  :doc:`SQL 语句查询 <topics/db/sql>` |
+  :doc:`事务管理 <topics/db/transactions>` |
+  :doc:`数据处理 <topics/db/aggregation>` |
+  :doc:`自定义字段 <howto/custom-model-fields>` |
+  :doc:`多数据库 <topics/db/multi-db>`
 
 * **Other:**
   :doc:`Supported databases <ref/databases>` |
