@@ -16,10 +16,9 @@
 
 .. _对象关联映射(ORM): http://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1%E5%85%B3%E7%B3%BB%E6%98%A0%E5%B0%84
 
-The :doc:`data-model syntax </topics/db/models>` offers many rich ways of
-representing your models -- so far, it's been solving two years' worth of
-database-schema problems. Here's a quick example, which might be saved in
-the file ``mysite/news/models.py``::
+:doc:`数据模型语法 </topics/db/models>` 提供了许多丰富的方法来展现你的模型 -- 
+到目前为止，它已经解决了两个多年积累下来数据库架构问题。
+下面是个简单的例子，可能被保存为 ``mysite/news/models.py``::
 
     from django.db import models
 
@@ -40,36 +39,33 @@ the file ``mysite/news/models.py``::
         def __unicode__(self):
             return self.headline
 
-Install it
-==========
+安装你的模型
+============
 
-Next, run the Django command-line utility to create the database tables
-automatically:
+下一步，运行 Django 命令行工具来自动创建数据库表：
 
 .. code-block:: bash
 
     $ python manage.py syncdb
 
-The :djadmin:`syncdb` command looks at all your available models and creates
-tables in your database for whichever tables don't already exist.
+:djadmin:`syncdb` 命令会查找你所有可用的模型(models)然后在你的数据库中创建还不存在的数据库表。
 
-Enjoy the free API
+享用便捷的 API
 ==================
 
-With that, you've got a free, and rich, :doc:`Python API </topics/db/queries>`
-to access your data. The API is created on the fly, no code generation
-necessary:
+接着，你就可以使用一个便捷且功能丰富的 :doc:`Python API </topics/db/queries>`
+来访问你的数据。API 是动态生成的，不需要代码生成:
 
 .. code-block:: python
 
-    # Import the models we created from our "news" app
+    # 导入我们在 "news "应用中创建的模型。
     >>> from news.models import Reporter, Article
 
-    # No reporters are in the system yet.
+    # 在系统中还没有 reporters 。
     >>> Reporter.objects.all()
     []
 
-    # Create a new Reporter.
+    # 创建一个新的 Reporter 。
     >>> r = Reporter(full_name='John Smith')
 
     # Save the object into the database. You have to call save() explicitly.
