@@ -290,8 +290,8 @@ Django 的每个组成部分：模型、视图和模板都可以解耦，以后�
 
 * 更性感的自动创建管理站点功能 – 本文仅仅触及了点皮毛。
 
-显然，下一步你应该 `下载 Django`_，阅读 :doc:`入门教程 </intro/tutorial01>` 
-并且加入 `社区`_. 感谢您的关注！
+显然，下一步你应该 `下载 Django`_，阅读 :doc:`入门教程 </intro/tutorial01>` 并且
+加入 `社区`_. 感谢您的关注！
 
 .. _下载 Django: https://www.djangoproject.com/download/
 .. _社区: https://www.djangoproject.com/community/
