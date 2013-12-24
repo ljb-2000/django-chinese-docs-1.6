@@ -33,45 +33,31 @@
 __ http://groups.google.com/group/django-users
 __ irc://irc.freenode.net/django
 
-Creating a project
+创建一个项目
 ==================
 
-If this is your first time using Django, you'll have to take care of some
-initial setup. Namely, you'll need to auto-generate some code that establishes a
-Django :term:`project` -- a collection of settings for an instance of Django,
-including database configuration, Django-specific options and
-application-specific settings.
+如果这是你第一次使用 Django，那么你必须进行一些初始设置。
+也就是通过自动生成代码来建立一个 Django 项目 :term:`project` -- 一个 Django 项目的设置集，包含了数据库配置、 Django 详细选项设置和应用特性配置。
 
-From the command line, ``cd`` into a directory where you'd like to store your
-code, then run the following command:
+在命令行中，使用 ``cd`` 命令进入你想存储代码所在的目录，然后运行以下命令：
 
 .. code-block:: bash
 
    django-admin.py startproject mysite
 
-This will create a ``mysite`` directory in your current directory. If it didn't
-work, see :ref:`troubleshooting-django-admin-py`.
+这将在当前目录创建一个 ``mysite`` 目录。如果失败了，请查看 :ref:`troubleshooting-django-admin-py`.
 
 .. note::
 
-    You'll need to avoid naming projects after built-in Python or Django
-    components. In particular, this means you should avoid using names like
-    ``django`` (which will conflict with Django itself) or ``test`` (which
-    conflicts with a built-in Python package).
+    你需要避免使用 python 保留字或 Django 组件名作为项目的名称。尤其是你应该避免使用的命名如： ``django`` (与 Django 本身会冲突) 或者 ``test`` (与 Python 内置的包名会冲突).
 
-.. admonition:: Where should this code live?
+.. admonition:: 这段代码应该放在哪里？
 
-    If your background is in plain old PHP (with no use of modern frameworks),
-    you're probably used to putting code under the Web server's document root
-    (in a place such as ``/var/www``). With Django, you don't do that. It's
-    not a good idea to put any of this Python code within your Web server's
-    document root, because it risks the possibility that people may be able
-    to view your code over the Web. That's not good for security.
+    如果你有一般 PHP 的编程背景（未使用流行的框架），可能会将你的代码放在 Web 服务器的文档根目录下（例如：``/var/www``）。而在 Django 中，你不必这么做。将任何 Python 代码放在你的 Web 服务器文档根目录不会是一个好主意，因为这可能会增加人们通过 Web 方式查看到你的代码的风险。这不利于安全。
 
-    Put your code in some directory **outside** of the document root, such as
-    :file:`/home/mycode`.
+    将你的代码放在你的文档根目录 **以外** 的某些目录, 例如 :file:`/home/mycode` 。
 
-Let's look at what :djadmin:`startproject` created::
+让我们来看看 :djadmin:`startproject` 都创建了些什么::
 
     mysite/
         manage.py
