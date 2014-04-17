@@ -1,13 +1,11 @@
 ==========
-Pagination
+分页
 ==========
 
 .. module:: django.core.paginator
    :synopsis: Classes to help you easily manage paginated data.
 
-Django provides a few classes that help you manage paginated data -- that is,
-data that's split across several pages, with "Previous/Next" links. These
-classes live in :file:`django/core/paginator.py`.
+Django 提供了一些类帮助你为数据提供分页功能，通过“上一页/下一页”的链接，可以访问不同的页面内的数据。这些类都在 :file:`django/core/paginator.py` 文件中。
 
 Example
 =======
