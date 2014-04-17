@@ -58,7 +58,7 @@ Django 提供了一些类帮助你为数据提供分页功能，通过“上一�
     ...
     EmptyPage: That page contains no results
 
-.. 注意::
+.. Note::
 
     在创建 ``Paginator`` 类实例的时候，可以提供一个 list或者tuple, 也可以提供 Django的 ``QuerySet``,或者其他的对象，只要这个对象提供了 ``count()`` 或者 ``__len__()`` 方法就可以。当需要确定对象中包括的清单数量时，``Paginator`` 类会首先尝试调用 ``count()`` 函数, 如果失败则会调用 ``len()`` 函数。这就允许Django的 ``QuerySet`` 类可以使用一个更有效的 ``count()`` 方法。
 
